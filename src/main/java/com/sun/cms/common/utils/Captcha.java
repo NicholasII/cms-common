@@ -42,7 +42,7 @@ public class Captcha {
 	 * @return
 	 */
 	public String generateCheckCode(){
-		String code = "0123456789asdfghjklqwertyuiopzxcvbnm";		
+		String code = "0123456789";		
 		StringBuilder builder = new StringBuilder();
 		for (int i = 0; i < num; i++) {
 			builder.append(code.charAt(random.nextInt(code.length())));
