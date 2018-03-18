@@ -124,10 +124,10 @@
 
 		</dependency>
 		<!-- 分页插件 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper</artifactId>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<plugins>
